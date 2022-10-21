@@ -1,0 +1,11 @@
+---
+- name: Ansible playbook test
+  shell: |
+    whoami
+    cat /etc/*-release
+    uname -a
+    pwd
+  register: output
+
+- debug:
+    msg: "{{ output.stdout_lines }}"
