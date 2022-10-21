@@ -2,7 +2,7 @@
 - name: Execute ansible playbook with jenkins
 
   hosts: all
-  gather_facts: true
+  #gather_facts: true
   connection: network_cli
 
   roles:
