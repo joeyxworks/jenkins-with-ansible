@@ -8,6 +8,6 @@
   connection: network_cli
 
   roles:
-    - firewall_cisco 
+    - ../Ansible/firewall_cisco 
 
 
